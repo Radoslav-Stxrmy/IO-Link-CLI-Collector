@@ -28,7 +28,7 @@ def get_iodd(product_name):
 
 
 def rename_and_move_file(product_name):
-    if ex() == True:
+    if ex(CHECKING_FOLDER) == True:
         
         os.rename(CHECKING_FOLDER, f'{TESTDIR}test_data/{product_name}.zip')
 
